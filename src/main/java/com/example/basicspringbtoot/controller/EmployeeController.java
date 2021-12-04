@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class EmployeeController {
 
-    @GetMapping("/")
+    @GetMapping("/test")
     public String getEmployee() throws Exception {
         return "Initial Azure message ";
     }
